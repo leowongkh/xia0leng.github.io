@@ -6334,9 +6334,9 @@ select:focus {
 .p-loading__animation {
     visibility: hidden;
 	display: inline-block;
-	margin-top: 20px;
+	/* margin-top: 20px;
 	max-width: 100%;
-	width: 200px;
+	width: 200px; */
 }
 
 .p-main-visual-image {
@@ -7430,8 +7430,8 @@ select {
 }
 
 .p-loading__animation {
-	margin-top: 1.25rem;
-	width: 12.5rem;
+	/* margin-top: 1.25rem; 
+	width: 12.5rem; */
 }
 
 .p-main-visual-image::before {
@@ -7991,7 +7991,7 @@ select {
 }
 
 .p-loading__animation {
-	margin-top: 20px;
+	/* margin-top: 20px; */
 }
 
 .p-main-visual-image::before {
