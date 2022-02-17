@@ -5840,6 +5840,12 @@ select:focus {
 	margin-top: 60px;
 }
 
+.p-drawer-content__sns-break{
+    flex-basis: 100%
+    height: 0;
+    
+}
+
 .p-drawer-content__sns-title {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
