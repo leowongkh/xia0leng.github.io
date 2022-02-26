@@ -4231,8 +4231,8 @@ select:focus {
 }
 
 .l-frame-front::after {
-	border-bottom: 2px solid #05eaf8;
-	border-top: 2px solid #05eaf8;
+	border-bottom: 2px solid #FFFFFF;
+	border-top: 2px solid #FFFFFF;
 	height: 100%;
 	left: 0;
 	top: 0;
@@ -4270,8 +4270,8 @@ select:focus {
 }
 
 .l-frame-single::after {
-	border-bottom: 2px solid #05eaf8;
-	border-top: 2px solid #05eaf8;
+	border-bottom: 2px solid #FFFFFF;
+	border-top: 2px solid #FFFFFF;
 	height: 100%;
 	left: 0;
 	top: 0;
@@ -4592,7 +4592,7 @@ select:focus {
 	line-height: 1;
 	opacity: 0;
 	position: relative;
-	text-shadow: 1px 1px 0 #05eaf8, -1px 1px 0 #05eaf8, 1px -1px 0 #05eaf8, -1px -1px 0 #05eaf8;
+	text-shadow: 1px 1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px -1px 0 #FFFFFF;
 	transform: translateY(20px);
 	z-index: 1;
 }
@@ -4680,7 +4680,7 @@ select:focus {
 	line-height: 1.60417;
 	margin-top: 24px;
 	text-align: center;
-	text-shadow: 2px 2px 0 #05eaf8, -2px 2px 0 #05eaf8, 2px -2px 0 #05eaf8, -2px -2px 0 #05eaf8;
+	text-shadow: 2px 2px 0 #FFFFFF, -2px 2px 0 #FFFFFF, 2px -2px 0 #FFFFFF, -2px -2px 0 #FFFFFF;
 }
 
 .p-biography-info-card__text {
@@ -4970,7 +4970,7 @@ select:focus {
 
 .p-footer {
 	background: transparent url(../img/common/footer-bg.jpg) repeat center center/1400px 192px;
-	border-top: 2px solid #05eaf8;
+	border-top: 2px solid #FFFFFF;
 	padding: 64px 0;
 }
 
@@ -5340,8 +5340,8 @@ select:focus {
 }
 
 .p-main-visual-image::after {
-	border-bottom: 2px solid #05eaf8;
-	border-top: 2px solid #05eaf8;
+	border-bottom: 2px solid #FFFFFF;
+	border-top: 2px solid #FFFFFF;
 	height: 100%;
 	left: 0;
 	top: 0;
@@ -6701,8 +6701,8 @@ select {
 }
 
 .l-frame-single {
-	border-left: 2px solid #05eaf8;
-	border-right: 2px solid #05eaf8;
+	border-left: 2px solid #FFFFFF;
+	border-right: 2px solid #FFFFFF;
 }
 
 .l-inner,
@@ -6979,7 +6979,7 @@ select {
 }
 
 .p-main-visual-image::after {
-	border: 2px solid #05eaf8;
+	border: 2px solid #FFFFFF;
 }
 
 .p-main-visual {
