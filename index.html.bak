@@ -21,36 +21,9 @@
         <!- fontcss ->
         <link href="https://use.typekit.net/mpd1lkm.css" rel="stylesheet">
         <!- stylesheet ->
-        <link rel="stylesheet" href="/assets/css/import.css">
+        <link rel="stylesheet" href="https://www.xln.moe/assets/css/import.css">
     </head>
-            
-    <div id="app">
-        <div class="visual">
-            <div class="visual_wrap">
-                <div class="visual_wrap_mv slider single-item">
-                    <p class="mv_img mv9"></p>
-                    <p class="mv_img mv8"></p>
-                    <p class="mv_img mv7"></p>
-                    <p class="mv_img mv6"></p>
-                    <p class="mv_img mv5"></p>
-                    <p class="mv_img mv1"></p>
-                    <p class="mv_img mv2"></p>
-                    <p class="mv_img mv3"></p>
-                </div>
-            </div>
-            </div>
-                <a class="scroll_wrap" href="#">
-                    <p class="scroll_down_txt notranslate">scroll</p>
-                    <div class="scroll_down_pointer">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 63">
-    <defs><style>.arrow_down{fill:#e6e6e6;}</style></defs>
-    <title>arrow_down</title>
-    <rect class="arrow_down" x="7" width="3" height="55"/>
-    <polygon class="arrow_down" points="10 63 0 53 10 53 10 63"/>
-</svg>
-                    </div>
-                </a>
-        
+ 
                  
 <body class="front-page">
 	<div class="l-wrap">
@@ -106,7 +79,32 @@
 		</div><!-- p-sdrawer-content -->
 
 
-
+    <div id="app">
+        <div class="visual">
+            <div class="visual_wrap">
+                <div class="visual_wrap_mv slider single-item">
+                    <p class="mv_img mv9"></p>
+                    <p class="mv_img mv8"></p>
+                    <p class="mv_img mv7"></p>
+                    <p class="mv_img mv6"></p>
+                    <p class="mv_img mv5"></p>
+                    <p class="mv_img mv1"></p>
+                    <p class="mv_img mv2"></p>
+                    <p class="mv_img mv3"></p>
+                </div>
+            </div>
+            </div>
+                <a class="scroll_wrap" href="#">
+                    <p class="scroll_down_txt notranslate">scroll</p>
+                    <div class="scroll_down_pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 63">
+    <defs><style>.arrow_down{fill:#e6e6e6;}</style></defs>
+    <title>arrow_down</title>
+    <rect class="arrow_down" x="7" width="3" height="55"/>
+    <polygon class="arrow_down" points="10 63 0 53 10 53 10 63"/>
+</svg>
+                    </div>
+                </a>
    
   
     <div class="l-top">
@@ -157,28 +155,10 @@
 			</section><!-- /l-sns -->
 		</div><!-- /l-top -->
         
-	<footer class="p-footer">
-			<div class="l-inner--full p-footer__inner">
-				<div class="p-footer__left">
-					<div class="p-footer__sns">
-						<a href="https://twitter.com/NACHERRY_STAFF" target="_blank"><img class="is-twitter" src="/assets/img/common/icon-twitter.png" alt="" width="27" height="23"></a>
-						<a href="https://www.instagram.com/nacherry_official/" target="_blank"><img class="is-instagram" src="/assets/img/common/icon-instagram.png" alt="" width="27" height="27"></a>
-						<a href="https://www.youtube.com/channel/UCidjZB0LX5l8aKzjLN0-1ZQ" target="_blank"><img class="is-line" src="/assets/img/common/icon-line.png" alt="" width="32" height="22"></a>
-					</div><!-- /p-footer__sns -->
-					<nav class="p-footer__nav">
-						<a href="/privacy/">プライバシーポリシー</a>
-						<a href="/terms/">利用規約</a>
-						<a href="/copyright/">著作権・肖像権について</a>
-					</nav><!-- /p-footer__nav -->
-				</div><!-- /p-footer__left -->
-				<div class="p-footer__right">
-					<div class="p-footer__logo"><a href="https://www.lantis.jp/top.html" target="_blank"><img src="/assets/img/common/footer-logo.png" alt="" width="130" height="24"></a></div><!-- /p-footer__logo -->
-					<div class="p-footer__copy">&copy; 2022 Xiaoleng</div><!-- /p-footer__copy -->
-				</div><!-- /p-footer__right -->
-			</div><!-- /l-inner -->
-		</footer><!-- /p-footer -->
-	</div><!-- /l-wrap -->
-
+        
+           
+        
+        
         
         
         
