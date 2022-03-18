@@ -4552,7 +4552,6 @@ select:focus {
 
 .p-footer__nav {
 	font-size: 14px;
-	margin-top: 56px;
 }
 
 .p-footer__nav a {
@@ -5798,7 +5797,6 @@ select {
 	align-items: center;
 	display: flex;
 	font-size: 0.875rem;
-	margin-top: 1.875rem;
 }
 
 .p-footer__nav a:nth-child(n + 2) {
@@ -6918,3 +6916,11 @@ to {
 
 }
 
+.p-footer__nav {
+    justify-content: flex-end;
+}
+
+footer p{
+    font-size: 0.8rem;
+    text-align: center;
+}
