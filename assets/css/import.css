@@ -6059,7 +6059,7 @@ select {
 }
 
 .l-post__content {
-	background: rgba(214, 227, 232, 0.95) url(../img/common/base-bg-opacity.png) repeat center top;
+	background: rgba(222, 200, 235, 0.95) url(../img/common/base-bg-opacity.png) repeat center top;
 	background-size: 9.375rem 8.75rem;
 }
 
@@ -6074,7 +6074,7 @@ select {
 }
 
 .l-section-front {
-	background: rgba(214, 227, 232, 0.95) url(../img/common/base-bg-opacity.png) repeat center top;
+	background: rgbargba(222, 200, 235, 0.95) url(../img/common/base-bg-opacity.png) repeat center top;
 	background-size: 9.375rem 8.75rem;
 	padding-bottom: 7.5rem;
 	padding-top: 7.5rem;
@@ -6089,7 +6089,7 @@ select {
 }
 
 .l-single__content {
-	background: rgba(214, 227, 232, 0.95) url(../img/common/base-bg-opacity.png) repeat center top;
+	background: rgba(222, 200, 235, 0.95) url(../img/common/base-bg-opacity.png) repeat center top;
 	background-size: 9.375rem 8.75rem;
 }
 
