@@ -6937,8 +6937,9 @@ footer p{
 .contact{
     display: flex;
     justify-content: center;
-    height: 975px;
+    height: 1010px;
     overflow: hidden;
+    padding-top: 35px;
 }
 
 .tIvQIf .DqBBlb {
