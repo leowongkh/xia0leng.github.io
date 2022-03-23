@@ -4928,6 +4928,10 @@ select:focus {
 	padding: 800px 0 62px;
 }
 
+.p-main-visual-common {
+	padding: 90px 0 62px;
+}
+
 .p-movie-pop {
 	background: rgba(247, 158, 175, 0.8);
 	display: none;
@@ -5960,6 +5964,11 @@ select {
 	padding-bottom: 7.5rem;
 	padding-top: 75.5rem;
 }
+    
+.p-main-visual-common {
+	padding-bottom: 7.5rem;
+	padding-top: 8.5rem;
+}
 
 .p-movie-pop__content {
 	width: 56.25rem;
@@ -6923,4 +6932,16 @@ to {
 footer p{
     font-size: 0.8rem;
     text-align: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    height: 975px;
+    overflow: hidden;
+}
+
+.tIvQIf .DqBBlb {
+    color: #5f6368;
+    display: none !important;
 }
