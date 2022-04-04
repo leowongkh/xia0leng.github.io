@@ -6950,3 +6950,8 @@ footer p{
 .l-page-biography__profiles {
     justify-content: center;
 }
+
+/* ---------- fix iOS 12 safari twitter embeded ---------- */
+.twitter-timeline {
+    width: 100vw !important;
+}
