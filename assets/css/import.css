@@ -5333,7 +5333,7 @@ select:focus {
 }
 
 .p-profile-card__info-row dt {
-	width: 56px;
+	width: 110px;
 }
 
 .p-profile-card__info-row dd {
@@ -6099,7 +6099,7 @@ select {
 }
 
 .p-profile-card__info-row dt {
-	width: 5.375rem;
+	width: 6.275rem;
 }
 
 .p-profile-card__info-row dd {
