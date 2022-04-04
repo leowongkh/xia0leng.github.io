@@ -6946,3 +6946,7 @@ footer p{
     color: #5f6368;
     display: none !important;
 }
+
+.l-page-biography__profiles {
+    justify-content: center;
+}
