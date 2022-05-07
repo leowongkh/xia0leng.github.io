@@ -5460,7 +5460,6 @@ select {
 .l-frame-front::before {
 	border-bottom-width: 0.3125rem;
 	border-top-width: 0.3125rem;
-	height: calc(100% - 0.25rem);
 	left: 0;
 	top: 0.125rem;
 }
