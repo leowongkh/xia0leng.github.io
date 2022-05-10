@@ -4018,8 +4018,14 @@ select:focus {
 }
 
 .l-post__footer {
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 	padding-top: 60px;
+	text-align: center;
+}
+
+.l-post__footer2 {
+	padding-bottom: 0px;
+	padding-top: 0px;
 	text-align: center;
 }
 
@@ -5605,6 +5611,11 @@ select {
 	padding-top: 3.75rem;
 }
 
+.l-post__footer2 {
+	padding-bottom: 5rem;
+	padding-top: 3.75rem;
+}
+
 .l-section-back {
 	padding-bottom: 7.5rem;
 	padding-top: 7.5rem;
@@ -6339,6 +6350,11 @@ select {
 }
 
 .l-post__footer {
+	padding-bottom: 120px;
+	padding-top: 60px;
+}
+
+.l-post__footer2 {
 	padding-bottom: 120px;
 	padding-top: 60px;
 }
