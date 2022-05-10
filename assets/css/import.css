@@ -4504,7 +4504,7 @@ select:focus {
 }
 
 .p-footer {
-	background: transparent url(../img/common/footer-bg.jpg) repeat center center/1400px 192px;
+	background: transparent url(../img/common/footer-bg.jpg);
 	border-top: 2px solid #FFFFFF;
 	padding: 64px 0;
 }
@@ -6953,3 +6953,20 @@ footer p{
 .twitter-timeline {
     width: 100vw !important;
 }
+
+/* ---------- language dropdown ---------- */
+._361RA708 > * {
+    margin-right: 1.230769231rem;
+}
+
+._1rPRFqce {
+    display: flex;
+    align-items: center;
+    padding-left: 0.6153846154rem;
+    
+._3y_2ESY4 ._2a0_SgUF {
+    font-size: var(--px18);
+    color: var(--grey20);
+    margin-left: var(--px8);
+    margin-right: var(--px12);
+    vertical-align: middle;
