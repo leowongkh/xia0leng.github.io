@@ -4064,7 +4064,7 @@ select:focus {
 }
 
 .l-top {
-	padding-bottom: 60px;
+	padding-bottom: 0px;
 }
 
 .l-wrap {
@@ -5650,7 +5650,7 @@ select {
 }
 
 .l-top {
-	padding-bottom: 3.75rem;
+	padding-bottom: 0rem;
 }
 
 .c-button {
@@ -6396,7 +6396,7 @@ select {
 }
 
 .l-top {
-	padding-bottom: 120px;
+	padding-bottom: 0px;
 }
 
 .c-button {
@@ -6968,6 +6968,16 @@ footer p{
 /* ---------- fix iOS 12 safari twitter embeded ---------- */
 .twitter-timeline {
     width: 100vw !important;
+}
+
+/* ---------- index secton connection ---------- */
+.l-index-middle{
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background: transparent url(../img/common/middle-bg.jpg);
+    border-top: 2px solid #FFFFFF;
+    padding: 64px 0;
+}
 }
 
 /* ---------- language dropdown ---------- */
