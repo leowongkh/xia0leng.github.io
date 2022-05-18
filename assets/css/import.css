@@ -6980,6 +6980,11 @@ footer p{
 }
 }
 
+/* ---------- top margin for l-post2---------- */
+.l-page2 {
+    margin-top: 5rem;
+}
+
 /* ---------- language dropdown ---------- */
 ._361RA708 > * {
     margin-right: 1.230769231rem;
