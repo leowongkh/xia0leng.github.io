@@ -5593,7 +5593,7 @@ select {
 }
 
 .l-post {
-	padding-top: 5rem;
+	padding-top: 0rem;
 }
 
 .l-post__head {
@@ -6335,6 +6335,12 @@ select {
 	padding-top: 136px;
 }
 
+.l-page2 {
+	padding-bottom: 120px;
+	padding-top: 40px;
+}
+
+
 .l-page__content {
 	background: rgba(222, 200, 235, 0.95) url(../img/common/base-bg-opacity.png) repeat center top/150px 140px;
 	padding-bottom: 120px;
@@ -6342,7 +6348,7 @@ select {
 }
 
 .l-post {
-	padding-top: 136px;
+	padding-top: 40px;
 }
 
 .l-post__content {
