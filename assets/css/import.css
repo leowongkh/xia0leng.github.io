@@ -6984,6 +6984,37 @@ footer p{
     border-top: 2px solid #FFFFFF;
     padding: 64px 0;
 }
+
+/* ---------- homepage shop section ---------- */
+.sec_shop{
+    background: repeating-linear-gradient(-45deg, #eaecff, #eaecff 10px, #fff 0, #fff 20px);
+    background-size: 100%;
+    position: relative;
+}
+
+.sec{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10% 10% 20%;
+    text-align: center;
+    height: 100%;
+}
+
+.sec_shop .sec_inner .shop_link_wrap .shop_link {
+    font-family: bc-alphapipe, sans-serif;
+    color: #5375c2;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0;
+}
+
+a.underline {
+    outline: none;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
 }
 
 /* ---------- language dropdown ---------- */
