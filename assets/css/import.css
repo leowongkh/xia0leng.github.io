@@ -4033,6 +4033,7 @@ select:focus {
 	padding-bottom: 60px;
 	padding-top: 60px;
 	position: relative;
+    background: #d495f7;
 }
 
 .l-section-front {
@@ -6995,7 +6996,7 @@ footer p{
 .sec{
     background-color: #fff;
     border-radius: 20px;
-    padding: 10% 10% 20%;
+    padding: 15% 10% 15%;
     text-align: center;
     height: 100%;
 }
