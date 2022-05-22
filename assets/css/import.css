@@ -4033,7 +4033,7 @@ select:focus {
 	padding-bottom: 60px;
 	padding-top: 60px;
 	position: relative;
-    background: #d495f7;
+    background: rgba(212, 149, 247, 0.9);
 }
 
 .l-section-front {
