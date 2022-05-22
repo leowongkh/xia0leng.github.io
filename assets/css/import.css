@@ -6987,27 +6987,14 @@ footer p{
 }
 
 /* ---------- homepage shop section ---------- */
-.sec_shop{
-    background: repeating-linear-gradient(-45deg, #eaecff, #eaecff 10px, #fff 0, #fff 20px);
-    background-size: 100%;
-    position: relative;
-}
+
 
 .sec{
     background-color: #fff;
     border-radius: 20px;
-    padding: 15% 10% 15%;
+    padding: 10% 10% 20%;
     text-align: center;
     height: 100%;
-}
-
-.sec_shop .sec_inner .shop_link_wrap .shop_link {
-    font-family: bc-alphapipe, sans-serif;
-    color: #5375c2;
-    font-size: 50px;
-    font-weight: 700;
-    font-style: italic;
-    letter-spacing: 0;
 }
 
 a.underline {
@@ -7017,6 +7004,64 @@ a.underline {
     display: inline-block;
     text-decoration: none;
 }
+
+.sec_shop{
+    background: repeating-linear-gradient(-45deg, #eaecff, #eaecff 10px, #fff 0, #fff 20px);
+    background-size: 100%;
+    position: relative;
+}
+  @media only screen and (max-width: 768px) {
+    .sec_shop {
+      padding: 30% 0; } }
+  .sec_shop .sec_inner {
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%); }
+    @media only screen and (max-width: 768px) {
+      .sec_shop .sec_inner .shop_link_wrap {
+        top: 0; } }
+
+    .sec_shop .sec_inner .shop_link_wrap .shop_link {
+    font-family: bc-alphapipe, sans-serif;
+    color: #5375c2;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0;
+}
+      @media only screen and (max-width: 768px) {
+        .sec_shop .sec_inner .shop_link_wrap .shop_link {
+          font-size: 30px; } }
+    .sec_shop .sec_inner .shop_link_wrap .comingsoon {
+      font-family: bc-alphapipe, sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #5375c2;
+      font-style: italic; }
+    .sec_shop .sec_inner .shop_link_wrap a.underline::after {
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      content: '';
+      width: 100%;
+      height: 2px;
+      background: #5375c2;
+      transform: scale(1, 1);
+      transform-origin: left top;
+      transition: transform .3s; }
+      @media only screen and (max-width: 768px) {
+        .sec_shop .sec_inner .shop_link_wrap a.underline::after {
+          bottom: 7px; } }
+    .sec_shop .sec_inner .shop_link_wrap a.underline:hover::after {
+      transform-origin: right top;
+      transform: scale(0, 1); }
+
+@media only screen and (max-width: 768px) {
+  .secondPage .sec_shop {
+    padding: 30% 0; } }
+
 
 /* ---------- language dropdown ---------- */
 ._361RA708 > * {
