@@ -4080,7 +4080,7 @@ select:focus {
 	color: #fff;
 	cursor: pointer;
 	display: inline-block;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Zen Kurenaido', sans-serif;
 	font-size: 14px;
 	font-weight: 900;
 	height: 57.5px;
@@ -4124,7 +4124,7 @@ select:focus {
 
 .c-section-heading__text {
 	display: inline-block;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Zen Kurenaido', sans-serif;
 	position: relative;
 }
 
@@ -4330,7 +4330,7 @@ select:focus {
 
 .p-drawer-content__item a {
 	color: #9306e0;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Zen Kurenaido', sans-serif;
 	font-size: 18px;
 	font-weight: 900;
 	letter-spacing: 0.06em;
@@ -4368,7 +4368,7 @@ select:focus {
 }
 
 .p-drawer-content__sns-title {
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Zen Kurenaido', sans-serif;
 	font-weight: 700;
 }
 
@@ -4659,7 +4659,7 @@ select:focus {
 
 .p-header__link a {
 	color: #9306e0;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Zen Kurenaido', sans-serif;
 	font-weight: 900;
 	text-decoration: none;
 }
@@ -5114,7 +5114,7 @@ select:focus {
 .p-news-card__meta {
 	align-items: center;
 	display: flex;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Zen Kurenaido', sans-serif;
 }
 
 .p-news-card__time {
@@ -5166,7 +5166,7 @@ select:focus {
 
 .p-news-labels__item a {
 	color: #9306e0;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Zen Kurenaido', sans-serif;
 	font-size: 16px;
 	font-weight: 900;
 	letter-spacing: 0.06em;
@@ -5182,7 +5182,7 @@ select:focus {
 .p-pagination {
 	color: #9306e0;
 	display: flex;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Zen Kurenaido', sans-serif;
 	font-size: 14px;
 	font-weight: 900;
 	justify-content: center;
@@ -5358,7 +5358,7 @@ select:focus {
 
 .p-share-sns__head {
 	color: #9306e0;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Zen Kurenaido', sans-serif;
 	font-size: 16px;
 	font-weight: 900;
 	margin-right: 30px;
