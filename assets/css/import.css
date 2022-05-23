@@ -452,7 +452,7 @@ body {
   line-height: 1.6;
   letter-spacing: 0.1em;
   font-size: 14px;
-  font-family: vdl-logog, "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+  font-family: 'Zen Kurenaido', sans-serif;
   overflow-y: scroll;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -4407,6 +4407,7 @@ select:focus {
 
 .p-entry-content p {
 	margin-top: 2em;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 
 .p-entry-page {
@@ -4447,7 +4448,7 @@ select:focus {
 .p-entry-single__meta {
 	align-items: center;
 	display: flex;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Zen Kurenaido', sans-serif;
 }
 
 .p-entry-single__date {
@@ -4485,7 +4486,7 @@ select:focus {
 }
 
 .p-entry-single__title {
-	font-size: 16px;
+	font-size: 22px;
 	font-weight: 800;
 	letter-spacing: 0.06em;
 	line-height: 1.5;
@@ -4560,7 +4561,7 @@ select:focus {
 }
 
 .p-footer__nav {
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .p-footer__nav a {
@@ -5149,7 +5150,7 @@ select:focus {
 }
 
 .p-news-card__title {
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: 0.72px;
 	line-height: 1.6;
 	margin-top: 8px;
@@ -5328,7 +5329,7 @@ select:focus {
 }
 
 .p-profile-card__info {
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: 0.06em;
 	margin-top: 20px;
 }
@@ -5813,7 +5814,7 @@ select {
 .p-footer__nav {
 	align-items: center;
 	display: flex;
-	font-size: 0.875rem;
+	font-size: 1.21rem;
 }
 
 .p-footer__nav a:nth-child(n + 2) {
@@ -6029,7 +6030,7 @@ select {
 }
 
 .p-news-card__title {
-	font-size: 0.875rem;
+	font-size: 1.21rem;
 	letter-spacing: 0.0525rem;
 	margin-top: 0.75rem;
 }
@@ -6101,7 +6102,7 @@ select {
 }
 
 .p-profile-card__info {
-	font-size: 0.75rem;
+	font-size: 1rem;
 	margin-top: 1.25rem;
 }
 
@@ -7064,6 +7065,10 @@ a.underline {
   .secondPage .sec_shop {
     padding: 30% 0; } }
 
+/* ---------- Common p text ---------- */
+p{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
 
 /* ---------- Trade More ---------- */
 ._26iLp8IJ {
