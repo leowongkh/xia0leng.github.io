@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* ---------- Zen Kurennaido fonts ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 /* ---------- number ---------- */
 /* ---------- color ---------- */
 /* ---------- breakPoint ---------- */
@@ -3316,7 +3318,7 @@ body {
 
 
 .scroll_wrap .scroll_down_txt {
-  font-family: bc-alphapipe, sans-serif;
+  font-family: 'Zen Kurenaido', sans-serif;
   position: fixed;
   bottom: 55px;
   left: 10px;
@@ -7024,7 +7026,7 @@ a.underline {
         top: 0; } }
 
     .sec_shop .sec_inner .shop_link_wrap .shop_link {
-    font-family: bc-alphapipe, sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
     color: #5375c2;
     font-size: 50px;
     font-weight: 700;
@@ -7035,7 +7037,7 @@ a.underline {
         .sec_shop .sec_inner .shop_link_wrap .shop_link {
           font-size: 30px; } }
     .sec_shop .sec_inner .shop_link_wrap .comingsoon {
-      font-family: bc-alphapipe, sans-serif;
+      font-family: 'Zen Kurenaido', sans-serif;
       font-size: 18px;
       font-weight: 700;
       color: #5375c2;
