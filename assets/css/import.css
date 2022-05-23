@@ -7006,7 +7006,7 @@ a.underline {
 }
 
 .sec_shop{
-    background: repeating-linear-gradient(-45deg, #eaecff, #eaecff 10px, #fff 0, #fff 20px);
+    background-image: url("/assets/img/common/shop-bg.png");
     background-size: 100%;
     position: relative;
 }
@@ -7061,6 +7061,16 @@ a.underline {
 @media only screen and (max-width: 768px) {
   .secondPage .sec_shop {
     padding: 30% 0; } }
+
+
+/* ---------- Trade More ---------- */
+._26iLp8IJ {
+    position: relative;
+    display: grid;
+    grid-column: 1 / -1;
+    grid-gap: 1px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
 
 
 /* ---------- language dropdown ---------- */
