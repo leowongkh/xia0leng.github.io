@@ -596,6 +596,44 @@ select:focus {
 	width: 194px;
 }
 
+.l-page-poster__info {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	width: 1188px;
+}
+
+.l-page-poster__info-img {
+	position: relative;
+	z-index: 2;
+}
+
+.l-page-poster__info-content {
+	position: relative;
+}
+
+.l-page-poster__info-content::before,
+.l-page-poster__info-content::after {
+	background: transparent url(../img/biography/biography-bg1-sp.png) no-repeat center center/contain;
+	content: "";
+	position: absolute;
+}
+
+.l-page-poster__info-content::before {
+	background-image: url(../img/biography/biography-bg1-sp.png);
+	height: 175px;
+	left: -8px;
+	top: -38px;
+	width: 120px;
+}
+
+.l-page-poster__info-content::after {
+	background-image: url(../img/biography/biography-bg2-sp.png);
+	bottom: -90px;
+	height: 97px;
+	right: 0;
+	width: 194px;
+}
 .l-page-biography__slide {
 	margin: 74px calc(50% - 50vw) 0;
 	position: relative;
@@ -621,6 +659,72 @@ select:focus {
 
 .l-page-biography__twitter-button {
 	margin-top: 25px;
+	text-align: center;
+}
+
+.l-page-poster__info {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	width: 1188px;
+}
+
+.l-page-poster__info-img {
+	position: relative;
+	z-index: 2;
+}
+
+.l-page-poster__info-content {
+	position: relative;
+}
+
+.l-page-poster__info-content::before,
+.l-page-poster__info-content::after {
+	background: transparent url(../img/biography/biography-bg1-sp.png) no-repeat center center/contain;
+	content: "";
+	position: absolute;
+}
+
+.l-page-poster__info-content::before {
+	background-image: url(../img/biography/biography-bg1-sp.png);
+	height: 175px;
+	left: -8px;
+	top: -38px;
+	width: 120px;
+}
+
+.l-page-poster__info-content::after {
+	background-image: url(../img/biography/biography-bg2-sp.png);
+	bottom: -90px;
+	height: 97px;
+	right: 0;
+	width: 194px;
+}
+
+.l-page-poster__slide {
+	margin: 74px calc(50% - 50vw) 0;
+	position: relative;
+	z-index: 2;
+}
+
+.l-page-poster__profiles {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 120px;
+	position: relative;
+}
+
+.l-page-poster__profiles::before {
+	background: transparent url(../img/biography/biography-bg3-sp.png) no-repeat center center/contain;
+	content: "";
+	height: 102px;
+	left: 2px;
+	position: absolute;
+	top: -118px;
+	width: 170px;
+}
+
+.l-page-poster-button {
 	text-align: center;
 }
 
@@ -728,6 +832,36 @@ select:focus {
 }
 
 .l-picture-frame::after {
+	border: 3px solid #fff100;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.l-poster-frame {
+	background: #f79eaf;
+	overflow: hidden;
+	position: relative;
+}
+
+.l-poster-frame::before,
+.l-poster-frame::after {
+	content: "";
+	position: absolute;
+}
+
+.l-poster-frame::before {
+	border: 5px solid #e3007f;
+	height: calc(100% - 4px);
+	left: 2px;
+	top: 2px;
+	width: calc(100% - 4px);
+	z-index: 3;
+}
+
+.l-poster-frame::after {
 	border: 3px solid #fff100;
 	height: 100%;
 	left: 0;
@@ -968,6 +1102,52 @@ select:focus {
 
 .p-biography-info-card__text strong {
 	color: #e3007f;
+	font-size: 16px;
+}
+
+.p-poster-info-card {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.p-poster-info-card__img {
+	text-align: center;
+}
+
+.p-poster-info-card__body {
+	font-weight: 800;
+	margin-top: 30px;
+}
+
+.p-poster-info-card__logo {
+	text-align: center;
+}
+
+.p-poster-info-card__logo img {
+	width: 200px;
+}
+
+.p-poster-info-card__lead {
+	color: #9306e0;
+	font-size: 24px;
+	letter-spacing: 0.1em;
+	line-height: 1.60417;
+	margin-top: 24px;
+	text-align: center;
+	text-shadow: 2px 2px 0 #fff100, -2px 2px 0 #fff100, 2px -2px 0 #fff100, -2px -2px 0 #fff100;
+}
+
+.p-poster-info-card__text {
+	color: #27272e;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	line-height: 2;
+	margin-top: 30px;
+}
+
+.p-poster-info-card__text strong {
+	color: #9306e0;
 	font-size: 16px;
 }
 
@@ -2952,6 +3132,17 @@ select {
 	border: 0.1875rem solid #fff100;
 }
 
+.l-poster-frame::before {
+	border: 0.3125rem solid #e3007f;
+	height: calc(100% - 0.25rem);
+	left: 0.125rem;
+	width: calc(100% - 0.25rem);
+}
+
+.l-poster-frame::after {
+	border: 0.1875rem solid #fff100;
+}
+    
 .l-post {
 	padding-top: 8.5rem;
 }
@@ -3083,7 +3274,17 @@ select {
 	text-shadow: 0.125rem 0.125rem 0 #fff100, -0.125rem 0.125rem 0 #fff100, 0.125rem -0.125rem 0 #fff100, -0.125rem -0.125rem 0 #fff100;
 }
 
-.p-biography-slide__items {
+.p-biography-info-card__logo img {
+	width: 16.25rem;
+}
+
+.p-poster-info-card__lead {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+	text-shadow: 0.125rem 0.125rem 0 #fff100, -0.125rem 0.125rem 0 #fff100, 0.125rem -0.125rem 0 #fff100, -0.125rem -0.125rem 0 #fff100;
+}
+
+.p-poster-slide__items {
 	width: 124pxrem;
 }
 
@@ -3675,6 +3876,23 @@ select {
 	letter-spacing: 0.1em;
 }
 
+.p-poster-info-card__img {
+	width: 44.19192%;
+}
+
+.p-poster-info-card__body {
+	margin-left: auto;
+	margin-top: 0;
+	width: 47.81145%;
+}
+
+.p-poster-info-card__lead {
+	line-height: 1.4;
+}
+
+.p-poster-info-card__text {
+	letter-spacing: 0.1em;
+}
 .p-discography-labels {
 	justify-content: center;
 }
@@ -3867,6 +4085,16 @@ select {
 	border: 3px solid #fff100;
 }
 
+.l-poster-frame::before {
+	border: 5px solid #e3007f;
+	left: 2px;
+	width: calc(100% - 4px);
+}
+
+.l-poster-frame::after {
+	border: 3px solid #fff100;
+}
+    
 .l-post {
 	padding-top: 136px;
 }
@@ -4639,4 +4867,17 @@ to {
 
 .l-page2{
     margin-top: 5rem;
+}
+
+/* ---------- Event page ---------- */
+.l-poster-frame{
+    margin: 0 auto
+}
+
+.p-poster-info-card__img {
+    width: 44.19192%;
+}
+
+.l-page-poster__info-content{
+    margin: 0 auto;
 }
