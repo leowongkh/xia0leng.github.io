@@ -7079,6 +7079,36 @@ p{
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
+._2w5pkt58 {
+    display: grid;
+    grid-gap: 1px;
+    background: var(--borderMain);
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+}
+
+._3W5JT9W5 {
+    --px10: 0.769rem;
+    --px14: 1.077rem;
+    --px18: 1.385rem;
+    background: var(--backgroundMain);
+    color: var(--textSecondary);
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+._5D1J2d-h {
+  background: var(--backgroundMain); }
+
+._11HVMbs5 ._2iN8Psso,
+  ._11HVMbs5 .C3M8HYrf {
+    color: var(--textPrimary);
+    font-family: 'Open Sans';
+    margin: 0; }
+
+._11HVMbs5 ._2iN8Psso {
+    font-size: var(--px40);
+    font-weight: 800;
+    line-height: var(--px40); }
 
 /* ---------- language dropdown ---------- */
 ._361RA708 > * {
