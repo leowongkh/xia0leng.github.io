@@ -7070,6 +7070,12 @@ p{
     font-family: 'Zen Kurenaido', sans-serif;
 }
 
+/* ---------- 404 Chinese Text ---------- */
+
+.404-ch-text{
+    font-family: vdl-logog, "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+}
+
 /* ---------- Trade More ---------- */
 ._26iLp8IJ {
     position: relative;
