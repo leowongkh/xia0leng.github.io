@@ -7070,19 +7070,7 @@ p{
     font-family: 'Zen Kurenaido', sans-serif;
 }
 
-/* ---------- Replace style2.css ---------- */
-body::before {
-	background: #d495f7 url(../img/common/base-bg.png) repeat center center/150px 150px;
-	content: "";
-	display: block;
-	height: 100vh;
-	left: 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 1;
-}
-
+/* ---------- Replacing part of style2.css ---------- */
 .l-page2{
     margin-top: 5rem;
 }
