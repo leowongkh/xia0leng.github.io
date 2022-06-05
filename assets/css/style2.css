@@ -1,3 +1,4 @@
+/* ---------- Change bg to purple ---------- */
 body::before {
 	background: #d495f7 url(../img/common/base-bg.png) repeat center center/150px 150px;
 	content: "";

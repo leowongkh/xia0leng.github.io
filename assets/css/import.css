@@ -4240,6 +4240,52 @@ select:focus {
 	font-size: 16px;
 }
 
+.p-poster-info-card {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.p-poster-info-card__img {
+	text-align: center;
+}
+
+.p-poster-info-card__body {
+	font-weight: 800;
+	margin-top: 30px;
+}
+
+.p-poster-info-card__logo {
+	text-align: center;
+}
+
+.p-poster-info-card__logo img {
+	width: 200px;
+}
+
+.p-poster-info-card__lead {
+	color: #9306e0;
+	font-size: 24px;
+	letter-spacing: 0.1em;
+	line-height: 1.60417;
+	margin-top: 24px;
+	text-align: center;
+	text-shadow: 2px 2px 0 #fff100, -2px 2px 0 #fff100, 2px -2px 0 #fff100, -2px -2px 0 #fff100;
+}
+
+.p-poster-info-card__text {
+	color: #27272e;
+	font-size: 14px;
+	letter-spacing: 0.08em;
+	line-height: 2;
+	margin-top: 30px;
+}
+
+.p-poster-info-card__text strong {
+	color: #9306e0;
+	font-size: 16px;
+}
+
 .p-biography-slide {
 	align-items: center;
 	display: flex;
@@ -4862,7 +4908,7 @@ select:focus {
 }
 
 .p-main-visual-image {
-	background: #f79eaf;
+	background: #d495f7;
 	overflow: hidden;
 	position: relative;
 }
@@ -4874,8 +4920,6 @@ select:focus {
 }
 
 .p-main-visual-image::before {
-	border-bottom: 5px solid #9306e0;
-	border-top: 5px solid #9306e0;
 	height: calc(100% - 4px);
 	left: 0;
 	top: 2px;
@@ -6191,6 +6235,24 @@ select {
 	letter-spacing: 0.1em;
 }
 
+.p-poster-info-card__img {
+	width: 70%;
+}
+
+.p-poster-info-card__body {
+	margin-left: auto;
+	margin-top: 0;
+	width: 70%;
+}
+
+.p-poster-info-card__lead {
+	line-height: 1.4;
+}
+
+.p-poster-info-card__text {
+	letter-spacing: 0.1em;
+}
+
 .p-drawer-button {
 	display: none;
 }
@@ -7075,18 +7137,113 @@ p{
     margin-top: 5rem;
 }
 
+/* ---------- Fix about me and event poster frame ---------- */
+[data-target] {
+	cursor: pointer;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.l-picture-frame {
+	background: #d495f7;
+	overflow: hidden;
+	position: relative;
+}
+
+.l-picture-frame::before,
+.l-picture-frame::after {
+	content: "";
+	position: absolute;
+}
+
+.l-picture-frame::before {
+	border: 5px solid #9306e0;
+	height: calc(100% - 4px);
+	left: 2px;
+	top: 2px;
+	width: calc(100% - 4px);
+	z-index: 3;
+}
+
+.l-picture-frame::after {
+	border: 3px solid #ffffff;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.l-poster-frame {
+	background: #d495f7;
+	overflow: hidden;
+	position: relative;
+}
+
+.l-poster-frame::before,
+.l-poster-frame::after {
+	content: "";
+	position: absolute;
+}
+
+.l-poster-frame::before {
+	border: 5px solid #9306e0;
+	height: calc(100% - 4px);
+	left: 2px;
+	top: 2px;
+	width: calc(100% - 4px);
+	z-index: 3;
+}
+
+.l-poster-frame::after {
+	border: 3px solid #ffffff;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+/* --- #06 --- */
+.l-picture-frame::before {
+	border: 0.3125rem solid #9306e0;
+	height: calc(100% - 0.25rem);
+	left: 0.125rem;
+	width: calc(100% - 0.25rem);
+}
+
+.l-picture-frame::after {
+	border: 0.1875rem solid #ffffff;
+}
+
+.l-poster-frame::before {
+	border: 0.3125rem solid #9306e0;
+	height: calc(100% - 0.25rem);
+	left: 0.125rem;
+	width: calc(100% - 0.25rem);
+}
+
+.l-poster-frame::after {
+	border: 0.1875rem solid #ffffff;
+}
+
 /* ---------- Event page ---------- */
 .l-poster-frame{
     margin: 0 auto
 }
 
-.p-poster-info-card__img {
-    width: 70%;
-}
-
 .l-page-poster__info-content{
     margin: 0 auto;
 }
+
+/* 01 */
+
+/* 03 */
+
 
 /* ---------- Trade More ---------- */
 ._26iLp8IJ {
