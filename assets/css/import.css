@@ -7070,6 +7070,36 @@ p{
     font-family: 'Zen Kurenaido', sans-serif;
 }
 
+/* ---------- Replace style2.css ---------- */
+body::before {
+	background: #d495f7 url(../img/common/base-bg.png) repeat center center/150px 150px;
+	content: "";
+	display: block;
+	height: 100vh;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.l-page2{
+    margin-top: 5rem;
+}
+
+/* ---------- Event page ---------- */
+.l-poster-frame{
+    margin: 0 auto
+}
+
+.p-poster-info-card__img {
+    width: 70%;
+}
+
+.l-page-poster__info-content{
+    margin: 0 auto;
+}
+
 /* ---------- Trade More ---------- */
 ._26iLp8IJ {
     position: relative;
