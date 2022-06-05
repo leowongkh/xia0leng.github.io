@@ -6008,7 +6008,7 @@ select {
 }
 
 .p-main-visual-image::before {
-	border: 0.3125rem solid #7F7AB4;
+	border: 0.3125rem solid #9306e0;
 	height: calc(100% - 0.25rem);
 	left: 0.125rem;
 	width: calc(100% - 0.25rem);
