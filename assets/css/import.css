@@ -4560,7 +4560,7 @@ select:focus {
 }
 
 .p-footer {
-	background: transparent url(../img/common/footer-bg.jpg);
+	background: #d495f7;
 	border-top: 2px solid #FFFFFF;
 	padding: 64px 0;
 }
