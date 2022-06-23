@@ -5525,8 +5525,10 @@ select {
 
 .l-frame-single::before {
 	border-bottom-width: 0.3125rem;
-	border-left: 5px solid #7F7AB4;
-	border-right: 5px solid #7F7AB4;
+	border-left: 5px solid #9306e0;
+    border-left-width: 0.3125rem;
+	border-right: 5px solid #9306e0;
+    border-right-width: 0.3125rem;
 	border-top-width: 0.3125rem;
 	height: calc(100% - 0.25rem);
 	left: 0.125rem;
