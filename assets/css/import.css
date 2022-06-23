@@ -457,12 +457,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* ---------- Common p text ---------- */
-p{
-    font-family: 'Noto Sans SC', sans-serif;
-    font-weight: 800;
-    letter-spacing: 0.06em;
-}
 
 /*!
  * animate.css -http://daneden.me/animate
@@ -7134,6 +7128,13 @@ a.underline {
 @media only screen and (max-width: 768px) {
   .secondPage .sec_shop {
     padding: 30% 0; } }
+
+/* ---------- Common p text ---------- */
+p{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+}
 
 /* ---------- Replacing part of style2.css ---------- */
 .l-page2{
