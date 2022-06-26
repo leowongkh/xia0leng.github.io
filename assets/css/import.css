@@ -7319,8 +7319,7 @@ p{
 }
 
 .c-form__title {
-    padding-left: 22px;
-    max-width: 80%;
+    
 	}
 
 .c-form__label,
@@ -7371,8 +7370,7 @@ textarea.c-form__input {
 
 @media (min-width: 640px) {
     .c-form__title {
-		padding-left: 10px;
-        max-width: 90%;
+		
 	}
 	.c-form__item {
 		flex-wrap: nowrap;
