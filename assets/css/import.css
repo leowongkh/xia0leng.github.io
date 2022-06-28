@@ -5223,20 +5223,20 @@ select:focus {
 	text-align: center;
 }
 
-.p-news-card__label.is-media {
-	background: #83ca60;
+.p-news-card__label.is-event {
+	background: #e497de;
 }
 
-.p-news-card__label.is-info {
-	background: #fac025;
-}
-
-.p-news-card__label.is-products {
+.p-news-card__label.is-article {
 	background: #70b6de;
 }
 
-.p-news-card__label.is-live {
-	background: #e497de;
+.p-news-card__label.is-announcement {
+	background: #83ca60;
+}
+
+.p-news-card__label.is-support {
+	background: #fac025;
 }
 
 .p-news-card__title {
