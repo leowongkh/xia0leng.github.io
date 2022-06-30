@@ -51,7 +51,37 @@ img.emoji {
             </div>
         </div>
         
-        <body class="page-template-default page page-id-38">    
+        <body class="page-template-default page page-id-38">
+            <!-- Messenger Chat Plugin Code -->
+            <div id="fb-root"></div>
+
+            <!-- Your Chat Plugin code -->
+            <div id="fb-customer-chat" class="fb-customerchat">
+            </div>
+
+            <script>
+              var chatbox = document.getElementById('fb-customer-chat');
+              chatbox.setAttribute("page_id", "103043264609552");
+              chatbox.setAttribute("attribution", "biz_inbox");
+            </script>
+
+            <!-- Your SDK code -->
+            <script>
+              window.fbAsyncInit = function() {
+                FB.init({
+                  xfbml            : true,
+                  version          : 'v14.0'
+                });
+              };
+
+              (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
+            </script>    
             <div class="l-wrap">
                 <div class="p-header">
                     <div class="l-inner--full p-header__inner">
@@ -65,13 +95,13 @@ img.emoji {
                                 <a class=" " href="https://xln.moe">Home</a>
                             </div>
                             <div class="p-header__link">
-                                <a class=" " href="https://xln.moe/next_event">Next event</a>
+                                <a class="is-current " href="https://xln.moe/next_event">Next event</a>
                             </div>
                             <div class="p-header__link">
                                 <a class=" " href="https://xln.moe/blog">Blog</a>
                             </div>
                             <div class="p-header__link">
-                                <a class="is-current " href="https://xln.moe/about_me">About me</a>
+                                <a class=" " href="https://xln.moe/about_me">About me</a>
                             </div>
                             <div class="p-header__link"><a class=" " href="https://xln.moe/fw/shop" target="_blank">Shop</a>
                             </div>
@@ -145,26 +175,29 @@ img.emoji {
                         </div><!-- /p-drawer-content__sns-items -->
                     </div><!-- /p-drawer-content__sns -->
                 </div><!-- p-sdrawer-content -->
-                
-                <div class="l-page2">
-                    <div class="l-page__head c-section-heading is-animation">
-                        <div class="c-section-heading__text">
-                            <span class="c-section-heading__text-main">About Xiaoleng</span>
-                        </div><!-- /c-section-heading__text -->
-                    </div><!-- /l-page__head -->
-	<div class="l-page__content l-page-biography l-frame-front">
-		<div class="l-page__inner l-inner l-frame-front__content">
 
-									<div class="l-page-biography__info p-biography-info-card">
-				<div class="p-biography-info-card__img l-page-biography__info-img l-picture-frame">
-                     <div class="p-main-visual2">
-                            <div class="p-main-visual__image p-main-visual-image">
-                                <img src="https://xln.moe/assets/img/biography/about_1.jpg">
-                                <div class="p-main-visual-image__cover"></div>
-                            </div><!-- /p-main-visual__image -->
-                    </div><!-- /p-main-visual -->
-				</div><!-- /p-biography-info-card__img -->
-				<div class="p-biography-info-card__body l-page-biography__info-content">
+                <div class="l-page2">
+	               <div class="l-page__head c-section-heading is-animation">
+		              <div class="c-section-heading__text">
+			             <span class="c-section-heading__text-main">Xiaoleng Birthday Live 2022</span>
+		              </div><!-- /c-section-heading__text -->
+	               </div><!-- /l-page__head -->
+	               <div class="l-page__content l-page-biography l-frame-front">
+		              <div class="l-page__inner l-inner l-frame-front__content">
+                          <div class="l-page-poster__info p-poster-info-card">
+                              <div class="p-poster-info-card__img l-page-poster__info-img l-poster-frame">
+                                  <div class="p-main-visual2">
+                                      <div class="p-main-visual__inner">
+                                          <div class="p-main-visual__image p-main-visual-image">
+                                              <img src="https://xln.moe/assets/img/event/live-poster.jpg">
+                                              <div class="p-main-visual-image__cover"></div>
+                                          </div><!-- /p-main-visual__image -->
+                                      </div><!-- /p-main-visual__inner -->
+                                  </div><!-- /p-main-visual -->
+                              </div><!-- /p-biography-info-card__img -->
+                          </div><!-- /p-biography-info-card -->
+                          <div class="l-page-poster__info p-poster-info-card">
+                              <div class="p-biography-info-card__body l-page-biography__info-content">
 					<div class="p-biography-info-card__text">
                         <p style="font-family: 'Noto Sans SC', sans-serif;">这里是紫色担当的新人偶像小冷～
 最喜欢的事情就是唱歌，希望可以向整个世界传达可爱，也很期待能在我自己的演唱会上和你们一块儿创造美好的回忆；
@@ -176,71 +209,12 @@ img.emoji {
                         </p>
 					</div><!-- /p-biography-info-card__text -->
 				</div><!-- /p-biography-info-card__body -->
-			</div><!-- /p-biography-info-card -->
-            
-            <div class="l-page-biography__info2 p-biography-info-card" style="flex-direction: row-reverse; padding-top: 5.7rem;
-    padding-bottom: 5.7rem;">
-                <div class="p-biography-info-card__img l-page-biography__info-img l-picture-frame">
-                     <div class="p-main-visual2">
-                            <div class="p-main-visual__image p-main-visual-image">
-                                <img src="https://xln.moe/assets/img/biography/about_2.jpg">
-                                <div class="p-main-visual-image__cover"></div>
-                            </div><!-- /p-main-visual__image -->
-                    </div><!-- /p-main-visual -->
-				</div><!-- /p-biography-info-card__img -->
-                <div class="p-biography-info-card__body2 l-page-biography__info-content">
-					<div class="p-biography-info-card__text">
-                        <p style="font-family: 'Noto Sans SC', sans-serif;">做<strong>最可爱的声优偶像</strong>是小冷一直以来的目标；在高中毕业以后小冷就选择来到了日本留学；小冷要为大家展现自己最可爱的一面
+                              </div><!-- /p-biography-info-card__body -->
+                          </div><!-- /p-biography-info-card -->
+                       </div><!-- /l-page__inner -->
+                    </div><!-- /l-page__content -->
+                </div><!-- /l-page -->
 
-                        </p>
-						<p style="font-family: 'Zen Kurenaido', sans-serif;">I'm always dreaming to be <strong>the cutest seiyuu idol</strong>; all for this I decided to study abord to Japan after graduating high school; I am going to show my cutest side to everyone
-                        </p>
-					</div><!-- /p-biography-info-card__text -->
-				</div><!-- /p-biography-info-card__body -->
-			</div><!-- /p-biography-info-card -->
-
-
-			<div class="l-page-biography__profiles">
-				<div class="l-page-biography__profile">
-					<div class="p-profile-card">
-						<div class="p-profile-card__img"><img width="684" height="1024" src="https://www.xln.moe/assets/img/biography/profile_1.jpg" class="attachment-large size-large" alt="" loading="lazy" sizes="(max-width: 684px) 100vw, 684px" /></div><!-- /p-profile-card__img -->
-						<div class="p-profile-card__body">
-							<div class="p-profile-card__title"><span class="is-ja">Xiaoleng</span><span class="is-en">小冷</span></div><!-- /p-profile-card__title -->
-							<dl class="p-profile-card__info">
-								<div class="p-profile-card__info-row">
-									<dt>Birthday:</dt>
-									<dd>Nov 23</dd>
-								</div><!-- /p-profile-card__info-row -->
-                                <div class="p-profile-card__info-row">
-									<dt>Zodiac:</dt>
-									<dd>Sagittarius</dd>
-								</div><!-- /p-profile-card__info-row -->
-								<div class="p-profile-card__info-row">
-									<dt>Blood Type:</dt>
-									<dd>A</dd>
-								</div><!-- /p-profile-card__info-row -->
-                                <div class="p-profile-card__info-row">
-									<dt>Official Color:</dt>
-									<dd>Purple</dd>
-								</div><!-- /p-profile-card__info-row -->
-								
-							</dl><!-- /p-profile-card__info -->
-						</div><!-- /p-profile-card__body -->
-					</div><!-- /p-profile-card -->
-					<div class="l-page-biography__twitter-button"><a href="https://facebook.com/xlnww" class="c-button" target="_blank">Facebook Page</a></div><!-- /l-page-biography__twitter-button -->
-				</div><!-- /l-page-biography__profile -->
-				
-			</div><!-- /l-page-biography__profiles -->
-
-						
-		</div><!-- /l-page__inner -->
-	</div><!-- /l-page__content -->
-</div><!-- /l-page -->
-
-
-
-
-        
                 <footer class="p-footer">
                     <div class="l-inner--full p-footer__inner">
                         <div class="p-footer__left">
