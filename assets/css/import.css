@@ -7524,10 +7524,19 @@ textarea.c-form__input {
     display: flex;
     align-items: center;
     padding-left: 0.6153846154rem;
-    
+}
+
 ._3y_2ESY4 ._2a0_SgUF {
     font-size: var(--px18);
     color: var(--grey20);
     margin-left: var(--px8);
     margin-right: var(--px12);
     vertical-align: middle;
+}
+    
+/* ---------- BitMEX Academy footer ---------- */
+#__next{
+    font-size:100%;
+    background: #d495f7;
+    letter-spacing: normal;
+}
