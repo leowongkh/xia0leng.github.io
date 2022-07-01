@@ -7861,10 +7861,11 @@ button,input{
     margin-bottom:var(--fsize80)
 }
  .PageFooter_disclaimer__307VW{
-     text-align:center;
+    text-align:center;
     color:var(--bitmex-grey10);
-    font-size:9px;
+    font-size:10px;
     line-height:1.5;
+    font-family: 'Zen Kurenaido';
 }
  .PageFooter_disclaimer__307VW+.PageFooter_disclaimer__307VW{
      margin-top:var(--fsize21) 
