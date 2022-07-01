@@ -7485,7 +7485,7 @@ textarea.c-form__input {
 
 /* ---------- Bilibili Banner ---------- */
 .banner {
-  background: url(//i0.hdslb.com/bfs/activity-plat/cover/20170614/59nm7456wp.jpg@70p) repeat;
+  background: url(/assets/img/bilibili/59nm7456wp.jpg) repeat;
   position: relative;
   height: 183px;
   background-size: 1200px 700px;
