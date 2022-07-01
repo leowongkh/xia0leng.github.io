@@ -7489,6 +7489,7 @@ textarea.c-form__input {
   position: relative;
   height: 61px;
   background-size: 400px 233px;
+  overflow: hidden;
 }
 .banner .banner-content{
   width: 323px;
