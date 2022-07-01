@@ -7484,10 +7484,6 @@ textarea.c-form__input {
 }
 
 /* ---------- Bilibili Banner ---------- */
-.wrapper {
-  position: relative;
-}
-
 .banner {
   background: url(/assets/img/bilibili/59nm7456wp.jpg) repeat;
   position: relative;
