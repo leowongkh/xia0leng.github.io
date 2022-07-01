@@ -7813,7 +7813,6 @@ button,input{
     display: flex;
     margin: 0 auto;
     padding-top: 1.9rem;
-    margin-bottom: -1rem;
 }
 .PageFooter_footerWrapper__yicTz{
     max-width:1110px;
@@ -7858,7 +7857,7 @@ button,input{
     line-height:1.2
 }
 .PageFooter_disclaimerWrapper__fSLIn{
-    margin-bottom:var(--fsize80)
+    margin-bottom: 6rem;
 }
  .PageFooter_disclaimer__307VW{
     text-align:center;
@@ -7890,7 +7889,7 @@ button,input{
         font-size:var(--fsize14)
     }
     .PageFooter_disclaimerWrapper__fSLIn{
-        margin-bottom:var(--fsize40)
+        margin-bottom: 5rem;
     }
     .PageFooter_disclaimer__307VW{
         line-height:2;
