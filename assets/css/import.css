@@ -7484,24 +7484,28 @@ textarea.c-form__input {
 }
 
 /* ---------- Bilibili Banner ---------- */
+.wrapper {
+  position: relative;
+}
+
 .banner {
   background: url(/assets/img/bilibili/59nm7456wp.jpg) repeat;
   position: relative;
-  height: 183px;
-  background-size: 1200px 700px;
+  height: 91.5px;
+  background-size: 600px 350px;
   overflow: hidden;
 }
 .banner .banner-content{
-  width: 700px;
+  width: 485px;
   margin: 0 auto;
   position: relative;
 }
 .banner .banner-content .logo{
   position: absolute;
   left: 0;
-  top: 35px;
-  width: 190px;
-  height: 100px;
+  top: 17.5px;
+  width: 95px;
+  height: 50px;
   background: url(/assets/img/bilibili/x65z8xpm2z.png) no-repeat;
   background-size: 100% auto;
 }
@@ -7662,11 +7666,11 @@ textarea.c-form__input {
 
 .banner .banner-content .banner-item1{
   position: absolute;
-     left: 488px;
+     left: 244px;
     right: 0;
-    top: -13px;
-  width: 210px;
-  height: 220px;
+    top: -7.5px;
+  width: 105px;
+  height: 110px;
   background: url(/assets/img/bilibili/39lk7z5rj5.png) no-repeat;
   background-size: 100% auto;
   margin: auto;
@@ -7677,11 +7681,11 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/59nm7o2v4n.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-  left: 130px;
+  left: 65px;
   right: 0;
-  top: 5px;
-  width: 185px;
-  height: 216px;
+  top: 2.5px;
+  width: 92.5px;
+  height: 108px;
   margin: auto;
   z-index: 1;
 }
@@ -7690,11 +7694,11 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/w45zmx1x8w.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-    left: 269px;
+    left: 134.5px;
     right: 0;
-    top: 58px;
-  width: 112px;
-  height: 170px;
+    top: 29px;
+  width: 56px;
+  height: 85px;
   margin: auto;
   z-index: 0;
 }
@@ -7703,11 +7707,11 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/y467ozjz0z.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-    left: 250px;
+    left: 125px;
     right: 0;
-    top: -11px;
-  width: 800px;
-  height: 270px;
+    top: -5.5px;
+  width: 400px;
+  height: 135px;
   margin: auto;
 }
 
@@ -7715,20 +7719,20 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/q0r41o3106.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-  left: 144px;
-    top: 16px;
-  width: 800px;
-  height: 270px;
+  left: 72px;
+    top: 8px;
+  width: 400px;
+  height: 135px;
   margin: auto;
 }
 .banner .banner-content .banner-item6{
   background: url(/assets/img/bilibili/q0r41o7ylj.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-      left: 195px;
-    top: -34px;
-  width: 800px;
-  height: 300px;
+      left: 97.5px;
+    top: -17px;
+  width: 400px;
+  height: 150px;
   margin: auto;
 }
 
@@ -7736,11 +7740,11 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/39lk7m9on5.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-    left: 342px;
+    left: 171px;
     right: 0;
-    top: 24px;
-  width: 54px;
-  height: 100px;
+    top: 12px;
+  width: 27px;
+  height: 50px;
   margin: auto;
   z-index: 4;
 }
@@ -7748,11 +7752,11 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/r9v12pklr4.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-    left: 246px;
+    left: 123px;
     right: 0;
-    top: 27px;
-  width: 32px;
-  height: 100px;
+    top: 13.5px;
+  width: 16px;
+  height: 50px;
   margin: auto;
   z-index: 4;
 }
