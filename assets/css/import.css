@@ -7487,21 +7487,21 @@ textarea.c-form__input {
 .banner {
   background: url(/assets/img/bilibili/59nm7456wp.jpg) repeat;
   position: relative;
-  height: 183px;
-  background-size: 1200px 700px;
+  height: 61px;
+  background-size: 400px 233px;
   overflow: hidden;
 }
 .banner .banner-content{
-  width: 700px;
+  width: 323px;
   margin: 0 auto;
   position: relative;
 }
 .banner .banner-content .logo{
   position: absolute;
   left: 0;
-  top: 35px;
-  width: 190px;
-  height: 100px;
+  top: 12px;
+  width: 63px;
+  height: 33px;
   background: url(/assets/img/bilibili/x65z8xpm2z.png) no-repeat;
   background-size: 100% auto;
 }
@@ -7662,11 +7662,11 @@ textarea.c-form__input {
 
 .banner .banner-content .banner-item1{
   position: absolute;
-     left: 488px;
+     left: 163px;
     right: 0;
-    top: -13px;
-  width: 210px;
-  height: 220px;
+    top: -4.3px;
+  width: 70px;
+  height: 73px;
   background: url(/assets/img/bilibili/39lk7z5rj5.png) no-repeat;
   background-size: 100% auto;
   margin: auto;
@@ -7677,11 +7677,11 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/59nm7o2v4n.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-  left: 130px;
+  left: 43px;
   right: 0;
-  top: 5px;
-  width: 185px;
-  height: 216px;
+  top: 1.6px;
+  width: 62px;
+  height: 72px;
   margin: auto;
   z-index: 1;
 }
@@ -7690,11 +7690,11 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/w45zmx1x8w.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-    left: 269px;
+    left: 90px;
     right: 0;
-    top: 58px;
-  width: 112px;
-  height: 170px;
+    top: 19px;
+  width: 37px;
+  height: 57px;
   margin: auto;
   z-index: 0;
 }
@@ -7703,11 +7703,11 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/y467ozjz0z.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-    left: 250px;
+    left: 83px;
     right: 0;
-    top: -11px;
-  width: 800px;
-  height: 270px;
+    top: -3.6px;
+  width: 267px;
+  height: 90px;
   margin: auto;
 }
 
@@ -7715,20 +7715,20 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/q0r41o3106.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-  left: 144px;
-    top: 16px;
-  width: 800px;
-  height: 270px;
+  left: 48px;
+    top: 5.3px;
+  width: 266px;
+  height: 90px;
   margin: auto;
 }
 .banner .banner-content .banner-item6{
   background: url(/assets/img/bilibili/q0r41o7ylj.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-      left: 195px;
-    top: -34px;
-  width: 800px;
-  height: 300px;
+      left: 65px;
+    top: -11.3px;
+  width: 266px;
+  height: 100px;
   margin: auto;
 }
 
@@ -7736,11 +7736,11 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/39lk7m9on5.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-    left: 342px;
+    left: 114px;
     right: 0;
-    top: 24px;
-  width: 54px;
-  height: 100px;
+    top: 8px;
+  width: 18px;
+  height: 33px;
   margin: auto;
   z-index: 4;
 }
@@ -7748,11 +7748,11 @@ textarea.c-form__input {
   background: url(/assets/img/bilibili/r9v12pklr4.png) no-repeat;
   background-size: 100% auto;
   position: absolute;
-    left: 246px;
+    left: 82px;
     right: 0;
-    top: 27px;
-  width: 32px;
-  height: 100px;
+    top: 9px;
+  width: 10.6px;
+  height: 33px;
   margin: auto;
   z-index: 4;
 }
