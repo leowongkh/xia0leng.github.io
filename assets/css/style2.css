@@ -15,3 +15,8 @@ body::before {
 .p-footer {
     background: none;
 }
+
+/* ---------- Fix page2 BitMEX Academy footer double purple footer bug ---------- */
+#__next {
+    background: none;
+}
