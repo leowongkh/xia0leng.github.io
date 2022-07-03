@@ -1,5 +1,5 @@
 /* Events */
-function drpevents() {
+function devents() {
   document.getElementById("eventsdrp").classList.toggle("show");
 }
 
@@ -14,7 +14,7 @@ window.onclick = function(e) {
 }
 
 /* Links */
-function drplinks() {
+function dlinks() {
   document.getElementById("linksdrp").classList.toggle("show");
 }
 
@@ -29,7 +29,7 @@ window.onclick = function(e) {
 }
 
 /* Liq */
-function drpliq() {
+function dliq() {
   document.getElementById("liqdrp").classList.toggle("show");
 }
 
@@ -44,7 +44,7 @@ window.onclick = function(e) {
 }
 
 /* About */
-function drpabout() {
+function dabout() {
   document.getElementById("aboutdrp").classList.toggle("show");
 }
 
