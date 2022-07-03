@@ -7664,7 +7664,7 @@ textarea.c-form__input {
 }
 
 .show {
-  display: block;
+  display: contents;
 }
 
 /* ---------- v2 dropdown right arrow---------- */
