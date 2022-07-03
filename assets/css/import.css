@@ -7613,12 +7613,6 @@ textarea.c-form__input {
   display: block;
 }
 
-/* ---------- PGP code box ---------- */
-
-code {
-    padding: 0.3rem;
-}
-
 /* ---------- Bilibili Banner ---------- */
 .banner {
   background: url(/assets/img/bilibili/59nm7456wp.jpg) repeat;
