@@ -23,6 +23,7 @@
 -->
         <link rel="stylesheet" href="https://xln.moe/assets/css/import.css">
         <link rel="stylesheet" href="https://xln.moe/assets/css/style2.css">
+        <script src="https://xln.moe/assets/js/drawerdrpdwn.js"></script>
 
         <!-- seo pack rsv -->
 
@@ -62,25 +63,53 @@ img.emoji {
                         </div><!-- /p-header__logo -->
 				        <nav class="p-header__nav">
                             <div class="p-header__link">
-                                <a class=" " href="https://xln.moe">Home</a>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Events
+                                        <i class="fa fa-caret-down">▼</i>
+                                    </button>
+                                    <div class="dropdown-content p-header__link is-current">
+                                        <a href="https://xln.moe/next_event">Next Event</a>
+                                        <a href="https://xln.moe/event">Event List</a>
+                                        <a href="https://xln.moe/livecast">Live Cast</a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="p-header__link">
-                                <a class=" " href="https://xln.moe/next_event">Next event</a>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Links
+                                        <i class="fa fa-caret-down">▼</i>
+                                    </button>
+                                    <div class="dropdown-content p-header__link is-current">
+                                        <a href="https://xln.moe/blog">Blog</a>
+                                        <a href="https://xln.moe/fw/shop" target="_blank">Official Shop</a>
+                                        <a href="https://xln.moe/fw/link" target="_blank">Official Links</a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="p-header__link">
-                                <a class=" " href="https://xln.moe/blog">Blog</a>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Liq™
+                                        <i class="fa fa-caret-down">▼</i>
+                                    </button>
+                                    <div class="dropdown-content p-header__link is-current">
+                                        <a href="https://liq.xln.moe" target="_blank">Liq™ Engine</a>
+                                        <a href="https://liveticket.xln.moe" target="_blank">LiveTicket™ Auth System</a>
+                                        <a href="https://llss.xln.moe" target="_blank">L²S²</a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="p-header__link">
-                                <a class=" " href="https://xln.moe/about_me">About me</a>
+                                <div class="dropdown">
+                                    <button class="dropbtn">About
+                                        <i class="fa fa-caret-down">▼</i>
+                                    </button>
+                                    <div class="dropdown-content p-header__link is-current">
+                                        <a href="https://xln.moe/profile/about">About Xiaoleng</a>
+                                        <a href="https://xln.moe/idcu">About IDCU</a>
+                                        <a href="https://xln.moe/liveticket">About LiveTicket™</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="p-header__link"><a class=" " href="https://facebook.com/xlnww/shop" target="_blank">Shop</a>
-                            </div>
-                            <!-- <div class="p-header__link">
-                            <a class=" is-disable" href="https://xln.moe/livecast">Live Cast</a>
-                            </div>-->
-					        <!-- <div class="p-header__link">
-                            <a class=" is-disable" href="" target="_blank">Community</a>
-                            </div>-->
                         </nav><!-- /p-header__nav -->
                         <div class="p-header__button">
                             <img src="https://xln.moe/assets/img/common/icon-hamburger.png" alt="" width="63" height="63">
@@ -99,27 +128,46 @@ img.emoji {
                         </div><!-- /p-drawer-content__button -->
                     </div><!-- /p-drawer-content__header -->
                     <div class="p-drawer-content__items">
-                        <div class="p-drawer-content__item">
-                            <a href="https://xln.moe">Home</a>
+                        <div class="dropdown2 p-drawer-content__item">
+                            <div class="drawerfln">
+                                <button class="dropbtn2" onclick="devents()"><span>Events</span><span class="f2">▼</span></button>
+                            </div>
+                            <div class="dropdown-content2" id="eventsdrp">
+                                <a href="https://xln.moe/next_event">Next Event</a>
+                                <a href="https://xln.moe/event">Event List</a>
+                                <a href="https://xln.moe/livecast">Live Cast</a>
+                            </div>
                         </div>
-                        <div class="p-drawer-content__item">
-                            <a href="https://xln.moe/next_event">Next event</a>
+                        <div class="dropdown2 p-drawer-content__item">
+                            <div class="drawerfln">
+                            <button class="dropbtn2" onclick="dlinks()"><span>Links</span><span class="f2">▼</span></button>
+                            </div>
+                            <div class="dropdown-content2" id="linksdrp">
+                                <a href="https://xln.moe/blog">Blog</a>
+                                <a href="https://xln.moe/fw/shop" target="_blank">Official Shop</a>
+                                <a href="https://xln.moe/fw/link" target="_blank">Official Links</a>
+                            </div>
                         </div>
-                        <div class="p-drawer-content__item">
-                            <a href="https://xln.moe/blog">Blog</a>
+                        <div class="dropdown2 p-drawer-content__item">
+                            <div class="drawerfln">
+                            <button class="dropbtn2" onclick="dliq()"><span>Liq™</span><span class="f2">▼</span></button>
+                            </div>
+                            <div class="dropdown-content2" id="liqdrp">
+                                <a href="https://liq.xln.moe" target="_blank">Liq™ Engine</a>
+                                <a href="https://liveticket.xln.moe" target="_blank">LiveTicket™ Auth System</a>
+                                <a href="https://llss.xln.moe" target="_blank">L²S²</a>
+                            </div>
                         </div>
-                        <div class="p-drawer-content__item">
-                            <a href="https://xln.moe/about_me">About me</a>
+                        <div class="dropdown2 p-drawer-content__item">
+                            <div class="drawerfln">
+                            <button class="dropbtn2" onclick="dabout()"><span>About</span><span class="f2">▼</span></button>
+                            </div>
+                            <div class="dropdown-content2" id="aboutdrp">
+                                <a href="https://xln.moe/profile/about">About Xiaoleng</a>
+                                <a href="https://xln.moe/idcu">About IDCU</a>
+                                <a href="https://xln.moe/liveticket">About LiveTicket™</a>
+                            </div>
                         </div>
-                        <div class="p-drawer-content__item">
-                            <a class=" " href="https://facebook.com/xlnww/shop" target="_blank">Shop</a>
-                        </div>
-                        <!-- <div class="p-drawer-content__item">
-                            <a href="/livecast" class="is-disable">Live Cast</a>
-                        </div> -->
-                        <!-- <div class="p-drawer-content__item">
-                            <a href="" class="is-disable" target="_blank">Community</a>
-                        </div> -->
                     </div><!-- /p-drawer-content__items -->
                     <div class="p-drawer-content__sns">
                         <div class="p-drawer-content__sns-title">Follow me:</div><!-- /p-drawer-content__sns-title -->
