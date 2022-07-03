@@ -7636,6 +7636,16 @@ textarea.c-form__input {
   margin: 0;
 }
 
+.drawerfln{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropbtn2{
+    display: flex;
+    justify-content: space-between;
+}
+
 .dropdown2:hover .dropbtn2, .dropbtn2:focus {
 
 }
@@ -7676,6 +7686,16 @@ textarea.c-form__input {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.f2 {
+    display: ;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 
 /* ---------- Bilibili Banner ---------- */
 .banner {
