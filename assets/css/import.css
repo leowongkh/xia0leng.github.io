@@ -4856,6 +4856,85 @@ select:focus {
 	opacity: 0;
 	transform: translate(-50%, 20px);
 }
+/* dropbtn current */
+.p-header__link dropbtn.is-current:not(.is-disable)::before {
+	background: transparent url(../img/common/icon-current.png) no-repeat center center/contain;
+	bottom: calc(100% + 3px);
+	content: "";
+	height: 28px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	transition: 200ms;
+	transition-timing-function: cubic-bezier(0.09, 0.83, 0.54, 1.54);
+	width: 30px;
+}
+
+.p-header__link dropbtn.is-current.current-disable:not(.is-disable)::before {
+	opacity: 0;
+	transform: translate(-50%, 20px);
+}
+
+.p-header__link dropbtn.current-show:not(.is-disable)::before {
+	background: transparent url(../img/common/icon-current.png) no-repeat center center/contain;
+	bottom: calc(100% + 3px);
+	content: "";
+	height: 28px;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%);
+	transition: 200ms;
+	transition-timing-function: cubic-bezier(0.09, 0.83, 0.54, 1.54);
+	width: 30px;
+}
+
+.p-header__link dropbtn.current-show.current-anime:not(.is-disable)::before {
+	opacity: 0;
+	transform: translate(-50%, 20px);
+}
+
+.p-header__link dropbtn.is-disable {
+	opacity: 0.2;
+	pointer-events: none;
+}
+
+.p-header__link dropbtn.is-current:not(.is-disable)::before {
+	background: transparent url(../img/common/icon-current.png) no-repeat center center/contain;
+	bottom: calc(100% + 3px);
+	content: "";
+	height: 28px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	transition: 200ms;
+	transition-timing-function: cubic-bezier(0.09, 0.83, 0.54, 1.54);
+	width: 30px;
+}
+
+.p-header__link dropbtn.is-current.current-disable:not(.is-disable)::before {
+	opacity: 0;
+	transform: translate(-50%, 20px);
+}
+
+.p-header__link dropbtn.current-show:not(.is-disable)::before {
+	background: transparent url(../img/common/icon-current.png) no-repeat center center/contain;
+	bottom: calc(100% + 3px);
+	content: "";
+	height: 28px;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%);
+	transition: 200ms;
+	transition-timing-function: cubic-bezier(0.09, 0.83, 0.54, 1.54);
+	width: 30px;
+}
+
+.p-header__link dropbtn.current-show.current-anime:not(.is-disable)::before {
+	opacity: 0;
+	transform: translate(-50%, 20px);
+}
+
+/* end of dropbtn */
 
 .p-header__button {
 	margin-left: auto;
@@ -7481,6 +7560,63 @@ textarea.c-form__input {
     .custom-select {
     width: 100%;
 }
+}
+
+/* ---------- v2 navbar dropdown ---------- */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    color: #9306e0;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+  border: none;
+  outline: none;
+  padding: 14px 0px;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    width:100%;
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ---------- PGP code box ---------- */
+
+code {
+    padding: 0.3rem;
 }
 
 /* ---------- Bilibili Banner ---------- */
