@@ -25,7 +25,7 @@ html {
 font-size: 16px;
 }
 
-body div.page-template-default {
+body {
   margin: 0; 
     <-! imported ->
 -webkit-font-smoothing: antialiased;
@@ -46,7 +46,7 @@ body div.page-template-default {
 
 
  <-! imported ->
-body::before div.page-template-default::before {
+body::before {
 	background: #d495f7 url(../img/common/base-bg.png) repeat center center/150px 150px;
 	content: "";
 	display: block;
