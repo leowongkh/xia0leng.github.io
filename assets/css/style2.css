@@ -1,6 +1,6 @@
 /* ---------- Change bg to purple ---------- */
 body::before {
-	background: rgba(212, 149, 247, 0.9) url(../img/common/base-bg.png) repeat center center/150px 150px;
+	background: rgba(212, 149, 247, 0.9);
 	content: "";
 	display: block;
 	height: 100vh;
