@@ -4345,7 +4345,6 @@ select:focus {
 
 .p-drawer-content {
 	background-color: #d495f7;
-	background-image: url(../img/common/drawer-bg.png), url(../img/common/drawer-bg.jpg);
 	background-position: right 0 bottom 0, center top;
 	background-repeat: no-repeat, repeat-y;
 	background-size: 307px 233px, 100% auto;
